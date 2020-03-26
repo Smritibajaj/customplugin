@@ -1,15 +1,15 @@
 > We highly suggest starting using https://github.com/artf/grapesjs-cli for your new plugin projects
 
-# GrapesJS Plugin Boilerplate
+# GrapesJS Plugin webpage
 
 
-<span><a href="https://david-dm.org/artf/grapesjs-plugin-boilerplate#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/artf/grapesjs-plugin-boilerplate.svg" alt="Dev Dependency Status" /></a></span>
+<span><a href="https://david-dm.org/artf/grapesjs-plugin-webpage#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/artf/grapesjs-plugin-webpage.svg" alt="Dev Dependency Status" /></a></span>
 
-This boilerplate helps you quickly start a production ready plugin for GrapesJS. If you don't know from where to start, check this guide [Creating plugins](https://grapesjs.com/docs/modules/Plugins.html). Sections below are also used as boilerplate for your README, follow these steps below
+This webpage helps you quickly start a production ready plugin for GrapesJS. If you don't know from where to start, check this guide [Creating plugins](https://grapesjs.com/docs/modules/Plugins.html). Sections below are also used as webpage for your README, follow these steps below
 
 ### Usage
-1. Clone this repository `git clone https://github.com/artf/grapesjs-plugin-boilerplate.git YOUR-PLUGIN-NAME`
-1. Replace in all files `YOUR-PLUGIN-NAME` and `grapesjs-plugin-boilerplate` with your plugin name.
+1. Clone this repository `git clone https://github.com/artf/grapesjs-plugin-webpage.git YOUR-PLUGIN-NAME`
+1. Replace in all files `YOUR-PLUGIN-NAME` and `grapesjs-plugin-webpage` with your plugin name.
   **The name of your plugin depends on the `name` key in your `package.json`**
 1. Update all the data in `package.json`
 1. Install dependencies `npm i` and run the local server `npm start`
