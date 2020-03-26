@@ -34,7 +34,7 @@ let faq2 = `<div class="card">
 </div>`
 
   let subtitlecard = `<div class="card">
-<img src="/images/card.jpg" class="card-img-top" alt="Cards">
+<img src="images/card.jpg" class="card-img-top" alt="Cards">
 <div class="card-body">
   <h5 class="card-title p-2">Card title</h5>
   <p class="card-text p-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -75,7 +75,7 @@ width: 150px;" alt="Circular Image">
 
   let team = `<div class="card">
 <div class="d-flex justify-content-center">
-<img src="/images/testim1.jpg" style="height:100px;width:100px;" class="card-img-top border rounded-circle m-2" alt="Circular Image">
+<img src="images/testim1.jpg" style="height:100px;width:100px;" class="card-img-top border rounded-circle m-2" alt="Circular Image">
 </div>
 <div class="card-body">
 <h4 class="card-title p-2 text-center">John Doe</h4>
@@ -85,7 +85,7 @@ width: 150px;" alt="Circular Image">
 
   let teamCard = `<div>
 <div class="d-flex justify-content-center">
-<img src="/images/testim1.jpg" class="card-img-top border rounded-circle m-2" style="height:150px;width:150px;" alt="Circular Image">
+<img src="images/testim1.jpg" class="card-img-top border rounded-circle m-2" style="height:150px;width:150px;" alt="Circular Image">
 </div>
 <div class="card-body">
 <h4 class="card-title p-2 text-center">John Doe</h4>
@@ -99,7 +99,7 @@ width: 150px;" alt="Circular Image">
 </div>`
 
   toAdd('Navigation') && bm.add('navigation1', {
-    label: `<img src="/images/block-header1.jpg" height="20px" width="80px"/>
+    label: `<img src="images/block-header1.jpg" height="20px" width="80px"/>
     <div>${c.navigation1}<div>`,
     category: c.categoryNavigation,
     content: `<nav class="navbar navbar-expand-lg text-light bg-dark">
@@ -124,7 +124,7 @@ width: 150px;" alt="Circular Image">
   })
 
   toAdd('Navigation') && bm.add('navigation2', {
-    label: `<img src="/images/block-header2.jpg" height="20px" width="80px"/>
+    label: `<img src="images/block-header2.jpg" height="20px" width="80px"/>
     <div>${c.navigation2}<div>`,
     category: c.categoryNavigation,
     content: `<nav class="navbar navbar-expand-lg text-light bg-dark">
@@ -150,7 +150,7 @@ width: 150px;" alt="Circular Image">
 
 
   toAdd('Navigation') && bm.add('navigation3', {
-    label: `<img src="/images/block-header3.jpg" height="20px" width="80px"/>
+    label: `<img src="images/block-header3.jpg" height="20px" width="80px"/>
     <div>${c.navigation3}<div>`,
     category: c.categoryNavigation,
     content: `<nav class="navbar navbar-expand-lg text-light bg-dark">
@@ -185,10 +185,10 @@ width: 150px;" alt="Circular Image">
 
 
   toAdd('Intros') && bm.add('intros1', {
-    label: `<img src="/images/block-intro1.jpg" height="20px" width="80px"/>
+    label: `<img src="images/block-intro1.jpg" height="20px" width="80px"/>
     <div>${c.intro1}<div>`,
     category: c.categoryIntros,
-    content: `<section class="h-100 container-fluid d-flex align-items-center" style="background-image:url(/images/photo-vineyard.jpg)">
+    content: `<section class="h-100 container-fluid d-flex align-items-center" style="background-image:url(images/photo-vineyard.jpg)">
     <div class="container">
     <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
     <div class="text-center p-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</div>
@@ -201,10 +201,10 @@ width: 150px;" alt="Circular Image">
   })
 
   toAdd('Intros') && bm.add('intros2', {
-    label: `<img src="/images/block-intro2.jpg" height="20px" width="80px"/>
+    label: `<img src="images/block-intro2.jpg" height="20px" width="80px"/>
     <div>${c.intro2}<div>`,
     category: c.categoryIntros,
-    content: `<section class="h-100 container-fluid d-flex align-items-center" style="background-image:url(/images/photo-vineyard2.jpg)">
+    content: `<section class="h-100 container-fluid d-flex align-items-center" style="background-image:url(images/photo-vineyard2.jpg)">
     <div class="container">
     <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
     <div class="text-center p-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</div>
@@ -217,10 +217,10 @@ width: 150px;" alt="Circular Image">
 
 
   toAdd('Intros') && bm.add('intros3', {
-    label: `<img src="/images/block-intro3.jpg" height="20px" width="80px"/>
+    label: `<img src="images/block-intro3.jpg" height="20px" width="80px"/>
     <div>${c.intro3}<div>`,
     category: c.categoryIntros,
-    content: `<section class="h-100 container-fluid d-flex align-items-center" style="background-image:url(/images/photo-intro3.jpg)">
+    content: `<section class="h-100 container-fluid d-flex align-items-center" style="background-image:url(images/photo-intro3.jpg)">
     <div class="container">
     <h1 class="mb-3">Super App</h1>
     <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h2>
@@ -233,7 +233,7 @@ width: 150px;" alt="Circular Image">
   })
 
   toAdd('Headings') && bm.add('headin1', {
-    label: `<img src="/images/block-heading1.jpg" height="20px" width="80px"/>
+    label: `<img src="images/block-heading1.jpg" height="20px" width="80px"/>
     <div>${c.heading1}<div>`,
     category: c.categoryHeadings,
     content: `<header class="w-100 h-25 d-flex flex-column align-items-center justify-content-end" style="background-color:#2e3137;">
@@ -243,7 +243,7 @@ width: 150px;" alt="Circular Image">
   })
 
   toAdd('Headings') && bm.add('heading2', {
-    label: `<img src="/images/block-heading2.jpg" height="20px" width="80px"/>
+    label: `<img src="images/block-heading2.jpg" height="20px" width="80px"/>
     <div>${c.heading2}<div>`,
     category: c.categoryHeadings,
     content: `<header class="w-100 h-25 d-flex flex-column align-items-center justify-content-end" style="background-color:#2e3137;">
@@ -254,7 +254,7 @@ width: 150px;" alt="Circular Image">
 
 
   toAdd('Features') && bm.add('4 features', {
-    label: `<img src="/images/block-feature1.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-feature1.jpg" height="40px" width="60px"/>
             <div>${c.feature1}<div>`,
     category: opt.categoryFeatures,
     content: `<div class="container">
@@ -270,7 +270,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Features') && bm.add('6 features', {
-    label: `<img src="/images/block-feature2.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-feature2.jpg" height="40px" width="60px"/>
             <div>${c.feature2}<div>`,
     category: opt.categoryFeatures,
     content: `<div class="container">
@@ -288,7 +288,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Features') && bm.add('4 Content', {
-    label: `<img src="/images/block-feature3.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-feature3.jpg" height="40px" width="60px"/>
             <div>${c.feature3}<div>`,
     category: opt.categoryFeatures,
     content: `<div class="container">
@@ -304,7 +304,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Features') && bm.add('6 Content', {
-    label: `<img src="/images/block-feature4.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-feature4.jpg" height="40px" width="60px"/>
             <div>${c.feature4}<div>`,
     category: opt.categoryFeatures,
     content: `<div class="container-fluid">
@@ -321,7 +321,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Features') && bm.add('2 Content', {
-    label: `<img src="/images/block-feature5.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-feature5.jpg" height="40px" width="60px"/>
             <div>${c.feature5}<div>`,
     category: opt.categoryFeatures,
     content: `<section class="container-fluid d-flex h-auto">
@@ -337,7 +337,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Features') && bm.add('Content', {
-    label: `<img src="/images/block-feature6.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-feature6.jpg" height="40px" width="60px"/>
             <div>${c.feature6}<div>`,
     category: opt.categoryFeatures,
     content: `<section class="container">
@@ -350,40 +350,40 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Clients') && bm.add('client1', {
-    label: `<img src="/images/block-clients1.png" height="40px" width="60px"/>
+    label: `<img src="images/block-clients1.png" height="40px" width="60px"/>
             <div>${c.client1}<div>`,
     category: opt.categoryClients,
     content: `<section class="container py-3">
     <div class="row">
-    <div class="col-xs-6 col-sm-4 col-md-2"><img src="/images/logo1.png" style="height:100px;width:100px;"/></div>
-    <div class="col-xs-6 col-sm-4 col-md-2"><img src="/images/logo2.png" style="height:100px;width:100px;"/></div>
-    <div class="col-xs-6 col-sm-4 col-md-2"><img src="/images/logo3.png" style="height:100px;width:100px;"/></div>
-    <div class="col-xs-6 col-sm-4 col-md-2"><img src="/images/logo4.png" style="height:100px;width:100px;"/></div>
-    <div class="col-xs-6 col-sm-4 col-md-2"><img src="/images/logo5.png" style="height:100px;width:100px;"/></div>
-    <div class="col-xs-6 col-sm-4 col-md-2"><img src="/images/logo6.png" style="height:100px;width:100px;"/></div>
+    <div class="col-xs-6 col-sm-4 col-md-2"><img src="images/logo1.png" style="height:100px;width:100px;"/></div>
+    <div class="col-xs-6 col-sm-4 col-md-2"><img src="images/logo2.png" style="height:100px;width:100px;"/></div>
+    <div class="col-xs-6 col-sm-4 col-md-2"><img src="images/logo3.png" style="height:100px;width:100px;"/></div>
+    <div class="col-xs-6 col-sm-4 col-md-2"><img src="images/logo4.png" style="height:100px;width:100px;"/></div>
+    <div class="col-xs-6 col-sm-4 col-md-2"><img src="images/logo5.png" style="height:100px;width:100px;"/></div>
+    <div class="col-xs-6 col-sm-4 col-md-2"><img src="images/logo6.png" style="height:100px;width:100px;"/></div>
     </div>
     </section>`,
   });
 
   toAdd('Clients') && bm.add('client2', {
-    label: `<img src="/images/block-clients2.png" height="40px" width="60px"/>
+    label: `<img src="images/block-clients2.png" height="40px" width="60px"/>
             <div>${c.client2}<div>`,
     category: opt.categoryClients,
     content: `<section class="container-fluid py-3">
     <h5 class="text-center p-3">Trusted by Great Companies</h5>
     <div class="row container mx-auto">
-    <div class="col-xs-6 col-sm-4 col-md-2"><img src="/images/logo1.png" style="height:100px;width:100px;"/></div>
-    <div class="col-xs-6 col-sm-4 col-md-2"><img src="/images/logo2.png" style="height:100px;width:100px;"/></div>
-    <div class="col-xs-6 col-sm-4 col-md-2"><img src="/images/logo3.png" style="height:100px;width:100px;"/></div>
-    <div class="col-xs-6 col-sm-4 col-md-2"><img src="/images/logo4.png" style="height:100px;width:100px;"/></div>
-    <div class="col-xs-6 col-sm-4 col-md-2"><img src="/images/logo5.png" style="height:100px;width:100px;"/></div>
-    <div class="col-xs-6 col-sm-4 col-md-2"><img src="/images/logo6.png" style="height:100px;width:100px;"/></div>
+    <div class="col-xs-6 col-sm-4 col-md-2"><img src="images/logo1.png" style="height:100px;width:100px;"/></div>
+    <div class="col-xs-6 col-sm-4 col-md-2"><img src="images/logo2.png" style="height:100px;width:100px;"/></div>
+    <div class="col-xs-6 col-sm-4 col-md-2"><img src="images/logo3.png" style="height:100px;width:100px;"/></div>
+    <div class="col-xs-6 col-sm-4 col-md-2"><img src="images/logo4.png" style="height:100px;width:100px;"/></div>
+    <div class="col-xs-6 col-sm-4 col-md-2"><img src="images/logo5.png" style="height:100px;width:100px;"/></div>
+    <div class="col-xs-6 col-sm-4 col-md-2"><img src="images/logo6.png" style="height:100px;width:100px;"/></div>
     </div>
     </section>`,
   });
 
   toAdd('Clients') && bm.add('client3', {
-    label: `<img src="/images/block-clients3.png" height="40px" width="60px"/>
+    label: `<img src="images/block-clients3.png" height="40px" width="60px"/>
             <div>${c.client3}<div>`,
     category: opt.categoryClients,
     content: `<section class="container-fluid py-3">
@@ -391,12 +391,12 @@ width: 150px;" alt="Circular Image">
     <div class="col-6">
     <h5 class="text-center p-3">Trusted by Great Companies</h5>
     <div class="row container mx-auto">
-    <div class="col-xs-6 col-sm-4"><img src="/images/logo1.png" style="height:100px;width:100px;"/></div>
-    <div class="col-xs-6 col-sm-4"><img src="/images/logo2.png" style="height:100px;width:100px;"/></div>
-    <div class="col-xs-6 col-sm-4"><img src="/images/logo3.png" style="height:100px;width:100px;"/></div>
-    <div class="col-xs-6 col-sm-4"><img src="/images/logo4.png" style="height:100px;width:100px;"/></div>
-    <div class="col-xs-6 col-sm-4"><img src="/images/logo5.png" style="height:100px;width:100px;"/></div>
-    <div class="col-xs-6 col-sm-4"><img src="/images/logo6.png" style="height:100px;width:100px;"/></div>
+    <div class="col-xs-6 col-sm-4"><img src="images/logo1.png" style="height:100px;width:100px;"/></div>
+    <div class="col-xs-6 col-sm-4"><img src="images/logo2.png" style="height:100px;width:100px;"/></div>
+    <div class="col-xs-6 col-sm-4"><img src="images/logo3.png" style="height:100px;width:100px;"/></div>
+    <div class="col-xs-6 col-sm-4"><img src="images/logo4.png" style="height:100px;width:100px;"/></div>
+    <div class="col-xs-6 col-sm-4"><img src="images/logo5.png" style="height:100px;width:100px;"/></div>
+    <div class="col-xs-6 col-sm-4"><img src="images/logo6.png" style="height:100px;width:100px;"/></div>
     </div>
     </div>
     <div class="col-6">
@@ -409,7 +409,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Clients') && bm.add('client4', {
-    label: `<img src="/images/block-clients4.png" height="40px" width="60px"/>
+    label: `<img src="images/block-clients4.png" height="40px" width="60px"/>
             <div>${c.client4}<div>`,
     category: opt.categoryClients,
     content: `<section class="container py-3">
@@ -439,7 +439,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Clients') && bm.add('client5', {
-    label: `<img src="/images/block-clients5.png" height="40px" width="60px"/>
+    label: `<img src="images/block-clients5.png" height="40px" width="60px"/>
             <div>${c.client5}<div>`,
     category: opt.categoryClients,
     content: `<section class="container-fluid py-3">
@@ -466,7 +466,7 @@ width: 150px;" alt="Circular Image">
 
 
   toAdd('Steps') && bm.add('step1', {
-    label: `<img src="/images/block-step1.png" height="40px" width="60px"/>
+    label: `<img src="images/block-step1.png" height="40px" width="60px"/>
             <div>${c.step1}<div>`,
     category: opt.categorySteps,
     content: `<div class="row mt-1">
@@ -578,21 +578,21 @@ width: 150px;" alt="Circular Image">
   });
 
   // toAdd('Steps') && bm.add('step2', {
-  //   label: `<img src="/images/block-step2.png" height="40px" width="60px"/>
+  //   label: `<img src="images/block-step2.png" height="40px" width="60px"/>
   //           <div>${c.step2}<div>`,
   //   category: opt.categorySteps,
   //   content: ``,
   // });
 
   // toAdd('Steps') && bm.add('step3', {
-  //   label: `<img src="/images/block-step3.png" height="40px" width="60px"/>
+  //   label: `<img src="images/block-step3.png" height="40px" width="60px"/>
   //           <div>${c.step3}<div>`,
   //   category: opt.categorySteps,
   //   content: ``,
   // });
 
   toAdd('Buttons') && bm.add('button1', {
-    label: `<img src="/images/block-button1.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-button1.jpg" height="40px" width="60px"/>
             <div>${c.button1}<div>`,
     category: opt.categoryButtons,
     content: `<a href="#" class="btn text-decoration-none p-3 text-light" style="background-color:#dc659b;">
@@ -601,7 +601,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Buttons') && bm.add('button2', {
-    label: `<img src="/images/block-button2.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-button2.jpg" height="40px" width="60px"/>
             <div>${c.button2}<div>`,
     category: opt.categoryButtons,
     content: `<a href="#" class="btn text-decoration-none p-3 text-light" style="background-color:#dc659b;border-radius:20px">
@@ -610,7 +610,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Buttons') && bm.add('button3', {
-    label: `<img src="/images/block-button4.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-button4.jpg" height="40px" width="60px"/>
             <div>${c.button3}<div>`,
     category: opt.categoryButtons,
     content: `<a href="#" class="btn text-decoration-none p-3 border" style="color:#dc659b;border-radius:20px; border-color:#dc659b;">
@@ -619,7 +619,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Buttons') && bm.add('button4', {
-    label: `<img src="/images/block-button3.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-button3.jpg" height="40px" width="60px"/>
             <div>${c.button4}<div>`,
     category: opt.categoryButtons,
     content: `<a href="#" class="btn text-decoration-none p-3 border" style="color:#dc659b;border-color:#dc659b;">
@@ -628,21 +628,21 @@ width: 150px;" alt="Circular Image">
   });
 
   // toAdd('Buttons') && bm.add('button5', {
-  //   label: `<img src="/images/block-button5.jpg" height="40px" width="60px"/>
+  //   label: `<img src="images/block-button5.jpg" height="40px" width="60px"/>
   //           <div>${c.button5}<div>`,
   //   category: opt.categoryButtons,
-  //   content: `<a href="#" class="btn text-decoration-none" style="background-image:url(/images/block-button5.jpg)"></a>`,
+  //   content: `<a href="#" class="btn text-decoration-none" style="background-image:url(images/block-button5.jpg)"></a>`,
   // });
 
   // toAdd('Buttons') && bm.add('button6', {
-  //   label: `<img src="/images/block-button6.jpg" height="40px" width="60px"/>
+  //   label: `<img src="images/block-button6.jpg" height="40px" width="60px"/>
   //           <div>${c.button6}<div>`,
   //   category: opt.categoryButtons,
-  //   content: `<a href="#" class="btn text-decoration-none" style="background-image:url(/images/block-button6.jpg)"></a>`,
+  //   content: `<a href="#" class="btn text-decoration-none" style="background-image:url(images/block-button6.jpg)"></a>`,
   // });
 
   toAdd('CalltoAction') && bm.add('calltoAction1', {
-    label: `<img src="/images/block-cta1.png" height="40px" width="60px"/>
+    label: `<img src="images/block-cta1.png" height="40px" width="60px"/>
             <div>${c.callToAction1}<div>`,
     category: opt.categoryCallToActions,
     content: `<section class="container-fluid p-5">
@@ -658,7 +658,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('CalltoAction') && bm.add('calltoAction2', {
-    label: `<img src="/images/block-cta2.png" height="40px" width="60px"/>
+    label: `<img src="images/block-cta2.png" height="40px" width="60px"/>
             <div>${c.callToAction2}<div>`,
     category: opt.categoryCallToActions,
     content: `<section class="container-fluid p-5">
@@ -678,7 +678,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('CalltoAction') && bm.add('calltoAction3', {
-    label: `<img src="/images/block-cta3.png" height="40px" width="60px"/>
+    label: `<img src="images/block-cta3.png" height="40px" width="60px"/>
             <div>${c.callToAction3}<div>`,
     category: opt.categoryCallToActions,
     content: `<section class="container-fluid p-5">
@@ -693,14 +693,14 @@ width: 150px;" alt="Circular Image">
   });
 
   // toAdd('CalltoAction') && bm.add('calltoAction4', {
-  //   label: `<img src="/images/block-button4.jpg" height="40px" width="60px"/>
+  //   label: `<img src="images/block-button4.jpg" height="40px" width="60px"/>
   //           <div>${c.callToAction4}<div>`,
   //   category: opt.categoryCallToActions,
   //   content: ``,
   // });
 
   toAdd('Pricing') && bm.add('pricing', {
-    label: `<img src="/images/block-pricing1.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-pricing1.jpg" height="40px" width="60px"/>
             <div>${c.pricing}<div>`,
     category: opt.categoryPricing,
     content: `<section class="container-fluid">
@@ -714,7 +714,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Teams') && bm.add('team1', {
-    label: `<img src="/images/block-team1.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-team1.jpg" height="40px" width="60px"/>
             <div>${c.team1}<div>`,
     category: opt.categoryTeams,
     content: `<section class="container">
@@ -728,7 +728,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Teams') && bm.add('team2', {
-    label: `<img src="/images/block-team2.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-team2.jpg" height="40px" width="60px"/>
             <div>${c.team2}<div>`,
     category: opt.categoryTeams,
     content: `<section class="container">
@@ -741,12 +741,12 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Testimonials') && bm.add('testimonial1', {
-    label: `<img src="/images/block-testim1.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-testim1.jpg" height="40px" width="60px"/>
             <div>${c.testimonial1}<div>`,
     category: opt.categoryTestimonials,
     content: `<div class="container"><div class="row">
     <div class="col-4">
-    <img src="/images/testim1.jpg" class="card-img-top border rounded-circle m-2" alt="Circular Image">
+    <img src="images/testim1.jpg" class="card-img-top border rounded-circle m-2" alt="Circular Image">
     </div>
     <div class="col-8">
     <h4 class="card-title p-2 text-center">John Doe</h4>
@@ -763,7 +763,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Testimonials') && bm.add('testimonial2', {
-    label: `<img src="/images/block-testim2.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-testim2.jpg" height="40px" width="60px"/>
             <div>${c.testimonial2}<div>`,
     category: opt.categoryTestimonials,
     content: `<div class="container-fluid p-3" style="background-color: #eee">
@@ -771,7 +771,7 @@ width: 150px;" alt="Circular Image">
     <div class="col">
     <div class="row" style="background-color: white">
     <div class="col-4">
-    <img src="/images/testim1.jpg" class="card-img-top border rounded-circle m-2" alt="Circular Image">
+    <img src="images/testim1.jpg" class="card-img-top border rounded-circle m-2" alt="Circular Image">
     </div>
     <div class="col-8">
     <h4 class="card-title p-2 text-center">John Doe</h4>
@@ -788,7 +788,7 @@ width: 150px;" alt="Circular Image">
     <div class="col">
     <div class="row" style="background-color: white">
     <div class="col-4">
-    <img src="/images/testim1.jpg" class="card-img-top border rounded-circle m-2" alt="Circular Image">
+    <img src="images/testim1.jpg" class="card-img-top border rounded-circle m-2" alt="Circular Image">
     </div>
     <div class="col-8">
     <h4 class="card-title p-2 text-center">John Doe</h4>
@@ -807,19 +807,19 @@ width: 150px;" alt="Circular Image">
   });
 
   // toAdd('Testimonials') && bm.add('testimonial3', {
-  //   label: `<img src="/images/block-testim3.jpg" height="40px" width="60px"/>
+  //   label: `<img src="images/block-testim3.jpg" height="40px" width="60px"/>
   //           <div>${c.testimonial3}<div>`,
   //   category: opt.categoryTestimonials,
   //   content: ``,
   // });
 
   toAdd('Testimonials') && bm.add('testimonial4', {
-    label: `<img src="/images/block-testim4.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-testim4.jpg" height="40px" width="60px"/>
             <div>${c.testimonial4}<div>`,
     category: opt.categoryTestimonials,
     content: `<div class="container-fluid py-5" style="background-color: #eee"><div class="row w-75 mx-auto " style="background-color:white">
     <div class="col-4">
-    <img src="/images/testim1.jpg" class="card-img-top border rounded-circle m-2" alt="Circular Image">
+    <img src="images/testim1.jpg" class="card-img-top border rounded-circle m-2" alt="Circular Image">
     </div>
     <div class="col-8">
     <h4 class="card-title p-2 text-center">John Doe</h4>
@@ -836,14 +836,14 @@ width: 150px;" alt="Circular Image">
   });
 
   // toAdd('Testimonials') && bm.add('testimonial5', {
-  //   label: `<img src="/images/block-testim5.jpg" height="40px" width="60px"/>
+  //   label: `<img src="images/block-testim5.jpg" height="40px" width="60px"/>
   //           <div>${c.testimonial5}<div>`,
   //   category: opt.categoryTestimonials,
   //   content: ``,
   // });
 
   toAdd('Forms') && bm.add('Form1', {
-    label: `<img src="/images/block-form1.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-form1.jpg" height="40px" width="60px"/>
             <div>${c.form1}<div>`,
     category: opt.categoryForms,
     content: `<div class="container-fluid d-flex justify-content-center flex-column p-3">
@@ -857,7 +857,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Forms') && bm.add('Form2', {
-    label: `<img src="/images/block-form3.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-form3.jpg" height="40px" width="60px"/>
             <div>${c.form2}<div>`,
     category: opt.categoryForms,
     content: `<div class="container d-flex justify-content-center flex-column p-3">
@@ -873,7 +873,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Forms') && bm.add('Form3', {
-    label: `<img src="/images/block-form2.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-form2.jpg" height="40px" width="60px"/>
             <div>${c.form3}<div>`,
     category: opt.categoryForms,
     content: `<div class="container d-flex justify-content-center flex-column p-3">
@@ -901,10 +901,10 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Forms') && bm.add('Form4', {
-    label: `<img src="/images/block-form4.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-form4.jpg" height="40px" width="60px"/>
             <div>${c.form4}<div>`,
     category: opt.categoryForms,
-    content: `<div class="container-fluid d-flex justify-content-center flex-column p-3" style="color:white;background-image:url(/images/photo-form.jfif)">
+    content: `<div class="container-fluid d-flex justify-content-center flex-column p-3" style="color:white;background-image:url(images/photo-form.jfif)">
     <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center">Contact Us</h5>
     <p class="text-center m-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<p>
     <form>
@@ -933,7 +933,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('FAQ') && bm.add('faq1', {
-    label: `<img src="/images/block-faq1.png" height="40px" width="60px"/>
+    label: `<img src="images/block-faq1.png" height="40px" width="60px"/>
             <div>${c.faq1}<div>`,
     category: opt.categoryFAQ,
     content: `<div class="container">
@@ -951,7 +951,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('FAQ') && bm.add('faq2', {
-    label: `<img src="/images/block-faq2.png" height="40px" width="60px"/>
+    label: `<img src="images/block-faq2.png" height="40px" width="60px"/>
             <div>${c.faq2}<div>`,
     category: opt.categoryFAQ,
     content: `<section class="container d-flex flex-column justify-content-center">
@@ -967,7 +967,7 @@ width: 150px;" alt="Circular Image">
 
 
   toAdd('Footers') && bm.add('footer1', {
-    label: `<img src="/images/block-footer1.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-footer1.jpg" height="40px" width="60px"/>
             <div>${c.footer1}<div>`,
     category: opt.categoryFooter,
     content: `<footer style="background-color: #353535; color:white">
@@ -1018,7 +1018,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Footers') && bm.add('footer2', {
-    label: `<img src="/images/block-footer2.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-footer2.jpg" height="40px" width="60px"/>
             <div>${c.footer2}<div>`,
     category: opt.categoryFooter,
     content: `<footer style="color: white;
@@ -1059,7 +1059,7 @@ width: 150px;" alt="Circular Image">
   });
 
   toAdd('Footers') && bm.add('footer3', {
-    label: `<img src="/images/block-footer3.jpg" height="40px" width="60px"/>
+    label: `<img src="images/block-footer3.jpg" height="40px" width="60px"/>
             <div>${c.footer3}<div>`,
     category: opt.categoryFooter,
     content: `<footer class="container-fluid pt-3" style="background-color: #4130c0;color:white;">
@@ -1080,7 +1080,7 @@ width: 150px;" alt="Circular Image">
   });
 
   // toAdd('Footers') && bm.add('footer4', {
-  //   label: `<img src="/images/block-footer4.jpg" height="40px" width="60px"/>
+  //   label: `<img src="images/block-footer4.jpg" height="40px" width="60px"/>
   //           <div>${c.footer4}<div>`,
   //   category: opt.categoryFooter,
   //   content: ``,
