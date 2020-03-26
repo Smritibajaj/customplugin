@@ -1,6 +1,6 @@
 {
   "name": "grapesjs-plugin-custom",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "description": "GrapesJS Plugin Custom",
   "main": "dist/YOUR-PLUGIN-NAME.min.js",
   "scripts": {
