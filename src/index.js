@@ -80,7 +80,4 @@ export default grapesjs.plugins.add('gjs-blocks-custom', (editor, opts = {}) => 
   // Add blocks
   const loadBlocks = require('./blocks');
   loadBlocks.default(editor, config);
-
-  // TODO Remove
-  editor.on('load', () => editor.addComponents(`<div style="margin:100px; padding:25px;">Content loaded from the plugin</div>`, { at: 0 }))
 });
