@@ -1,12 +1,10 @@
 import grapesjs from 'grapesjs';
-const loadCss = editor => {
-  editor.Config.canvasCss += `.center{ text-align:center }`
-}
 export default grapesjs.plugins.add('gjs-blocks-custom', (editor, opts = {}) => {
   const config = {
-    blocks: ['Navigation', 'Intros', 'Headings', 'Features', 'Clients', 'Steps', 'Buttons', 'CalltoAction', 'Pricing', 'Teams', 'Testimonials', 'Forms', 'FAQ', 'Footers'],
+    blocks: ['Navigation', 'Intros','AboutUs', 'Headings', 'Features', 'Clients', 'Steps', 'Buttons', 'CalltoAction', 'Pricing', 'Teams', 'Testimonials', 'Forms', 'FAQ', 'Footers'],
     flexGrid: 0,
     addBasicStyle: true,
+    active:false,
     //category
     categoryNavigation: 'Navigation',
     categoryIntros: 'Intros',
